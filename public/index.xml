@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+    <channel>
+      <title>Python Documentacion PineApple</title>
+      <link>https://pineapple-mikael-engineer.github.io</link>
+      <description>Last 10 notes on Python Documentacion PineApple</description>
+      <generator>Quartz -- quartz.jzhao.xyz</generator>
+      <item>
+    <title>Programación Orientada a Objetos</title>
+    <link>https://pineapple-mikael-engineer.github.io/100-Programaci%C3%B3n-Orientada-a-Procesos/</link>
+    <guid>https://pineapple-mikael-engineer.github.io/100-Programaci%C3%B3n-Orientada-a-Procesos/</guid>
+    <description><![CDATA[ Programación Orientada a Procesos. ]]></description>
+    <pubDate>Wed, 04 Feb 2026 05:16:46 GMT</pubDate>
+  </item><item>
+    <title>Documentación Python</title>
+    <link>https://pineapple-mikael-engineer.github.io/</link>
+    <guid>https://pineapple-mikael-engineer.github.io/</guid>
+    <description><![CDATA[ Python. ]]></description>
+    <pubDate>Wed, 04 Feb 2026 05:16:46 GMT</pubDate>
+  </item><item>
+    <title>Operadores de Variables</title>
+    <link>https://pineapple-mikael-engineer.github.io/100-Programaci%C3%B3n-Orientada-a-Procesos/00-Referencias/Operadores-de-Variables</link>
+    <guid>https://pineapple-mikael-engineer.github.io/100-Programaci%C3%B3n-Orientada-a-Procesos/00-Referencias/Operadores-de-Variables</guid>
+    <description><![CDATA[ Los operadores en Python son símbolos especiales que permiten realizar operaciones sobre valores y variables. ]]></description>
+    <pubDate>Wed, 04 Feb 2026 03:53:33 GMT</pubDate>
+  </item><item>
+    <title>Datos Primitivos</title>
+    <link>https://pineapple-mikael-engineer.github.io/100-Programaci%C3%B3n-Orientada-a-Procesos/10-Variables-y-Tipos-de-Datos/01-Datos-Primitivos</link>
+    <guid>https://pineapple-mikael-engineer.github.io/100-Programaci%C3%B3n-Orientada-a-Procesos/10-Variables-y-Tipos-de-Datos/01-Datos-Primitivos</guid>
+    <description><![CDATA[ Datos Primitivos o Tipos Primitivos se refiere a los bloques de construcción mas básicos y fundamentales para la manipulación de datos. ]]></description>
+    <pubDate>Wed, 04 Feb 2026 03:53:33 GMT</pubDate>
+  </item><item>
+    <title>Mutabilidad y Inmutabilidad</title>
+    <link>https://pineapple-mikael-engineer.github.io/100-Programaci%C3%B3n-Orientada-a-Procesos/10-Variables-y-Tipos-de-Datos/02-Mutabilidad-y-Inmutabilidad</link>
+    <guid>https://pineapple-mikael-engineer.github.io/100-Programaci%C3%B3n-Orientada-a-Procesos/10-Variables-y-Tipos-de-Datos/02-Mutabilidad-y-Inmutabilidad</guid>
+    <description><![CDATA[ La mutabilidad en Python es una propiedad del tipo de dato, no del valor. ]]></description>
+    <pubDate>Wed, 04 Feb 2026 03:53:33 GMT</pubDate>
+  </item><item>
+    <title>Transformación de Tipos</title>
+    <link>https://pineapple-mikael-engineer.github.io/100-Programaci%C3%B3n-Orientada-a-Procesos/10-Variables-y-Tipos-de-Datos/03-Transformaci%C3%B3n-de-Tipos</link>
+    <guid>https://pineapple-mikael-engineer.github.io/100-Programaci%C3%B3n-Orientada-a-Procesos/10-Variables-y-Tipos-de-Datos/03-Transformaci%C3%B3n-de-Tipos</guid>
+    <description><![CDATA[ flowchart LR classDef principal fill:#2d3436,stroke:#dfe6e9,stroke-width:2px,color:#fff,font-weight:bold; classDef categoria fill:#636e72,stroke:#dfe6e9,stroke-width:1px,color:#fff; classDef subcategoria fill:#b2bec3,stroke:#636e72,stroke-width:1px,color:#2d3436; classDef tipo fill:#f9f9f9,stroke:#6... ]]></description>
+    <pubDate>Wed, 04 Feb 2026 03:53:33 GMT</pubDate>
+  </item><item>
+    <title>Condicionales (if, elif, else)</title>
+    <link>https://pineapple-mikael-engineer.github.io/100-Programaci%C3%B3n-Orientada-a-Procesos/20-Estructuras-de-Control/01-Condicionales</link>
+    <guid>https://pineapple-mikael-engineer.github.io/100-Programaci%C3%B3n-Orientada-a-Procesos/20-Estructuras-de-Control/01-Condicionales</guid>
+    <description><![CDATA[ Un bloque condicional es una estructura de control que permite ejecutar diferentes fragmentos de código dependiendo de si una o varias condiciones se cumplen o no. ]]></description>
+    <pubDate>Wed, 04 Feb 2026 03:53:33 GMT</pubDate>
+  </item><item>
+    <title>Bucles</title>
+    <link>https://pineapple-mikael-engineer.github.io/100-Programaci%C3%B3n-Orientada-a-Procesos/20-Estructuras-de-Control/02-Bucles</link>
+    <guid>https://pineapple-mikael-engineer.github.io/100-Programaci%C3%B3n-Orientada-a-Procesos/20-Estructuras-de-Control/02-Bucles</guid>
+    <description><![CDATA[ Un bucle (o ciclo) es una estructura de control que permite ejecutar un bloque de código repetidamente mientras se cumple una condición específica o para cada elemento de una secuencia. ]]></description>
+    <pubDate>Wed, 04 Feb 2026 03:53:33 GMT</pubDate>
+  </item><item>
+    <title>Control de Flujo</title>
+    <link>https://pineapple-mikael-engineer.github.io/100-Programaci%C3%B3n-Orientada-a-Procesos/20-Estructuras-de-Control/03-Control-de-Flujo</link>
+    <guid>https://pineapple-mikael-engineer.github.io/100-Programaci%C3%B3n-Orientada-a-Procesos/20-Estructuras-de-Control/03-Control-de-Flujo</guid>
+    <description><![CDATA[ Los controles de flujo break, continue y pass son palabras clave que modifican el comportamiento normal de los bucles en Python. ]]></description>
+    <pubDate>Wed, 04 Feb 2026 03:53:33 GMT</pubDate>
+  </item><item>
+    <title>Estructuras de Control</title>
+    <link>https://pineapple-mikael-engineer.github.io/100-Programaci%C3%B3n-Orientada-a-Procesos/20-Estructuras-de-Control/</link>
+    <guid>https://pineapple-mikael-engineer.github.io/100-Programaci%C3%B3n-Orientada-a-Procesos/20-Estructuras-de-Control/</guid>
+    <description><![CDATA[ "Descripcion" ]]></description>
+    <pubDate>Wed, 04 Feb 2026 03:53:33 GMT</pubDate>
+  </item>
+    </channel>
+  </rss>
