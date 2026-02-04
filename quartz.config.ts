@@ -17,7 +17,6 @@ const config: QuartzConfig = {
     },
     locale: "en-US",
     baseUrl: "pineapple-mikael-engineer.github.io",
-    basePath: "/Python_Quartz_webside",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "modified",
     theme: {
