@@ -1,13 +1,13 @@
-# Obsidian Nord
+# Focus
 
-- Theme: Obsidian Nord
-- Author: <a href="https://insanum.com" target="_blank" rel="noopener noreferrer">insanum</a>
+- Theme: Focus
+- Author: <a href="https://www.moritzjung.dev" target="_blank" rel="noopener noreferrer">Moritz Jung</a>
 
 ## Preview
 
-[Open live preview (Quartz)](https://quartz-themes.github.io/obsidian-nord/)
+[Open live preview (Quartz)](https://quartz-themes.github.io/focus/)
 
-[Open live preview (Publish)](https://publish.saberzero.one/obsidian-nord)
+[Open live preview (Publish)](https://publish.saberzero.one/focus)
 
 ## Usage (Quartz)
 
@@ -15,7 +15,7 @@
 
 ```yaml
 env:
-  THEME_NAME: obsidian-nord
+  THEME_NAME: focus
 ```
 
 ```yaml
@@ -28,7 +28,7 @@ env:
 ```bash
 curl -s -S -o action.sh https://raw.githubusercontent.com/saberzero1/quartz-themes/master/action.sh
 
-./action.sh obsidian-nord
+./action.sh focus
 ```
 
 ### Manual install
