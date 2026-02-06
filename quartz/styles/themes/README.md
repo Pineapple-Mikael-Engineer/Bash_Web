@@ -1,13 +1,13 @@
-# AnuPpuccin
+# Obsidian Nord
 
-- Theme: AnuPpuccin
-- Author: <a href="https://github.com/AnubisNekhet" target="_blank" rel="noopener noreferrer">Anubis</a>
+- Theme: Obsidian Nord
+- Author: <a href="https://insanum.com" target="_blank" rel="noopener noreferrer">insanum</a>
 
 ## Preview
 
-[Open live preview (Quartz)](https://quartz-themes.github.io/anuppuccin/)
+[Open live preview (Quartz)](https://quartz-themes.github.io/obsidian-nord/)
 
-[Open live preview (Publish)](https://publish.saberzero.one/anuppuccin)
+[Open live preview (Publish)](https://publish.saberzero.one/obsidian-nord)
 
 ## Usage (Quartz)
 
@@ -15,7 +15,7 @@
 
 ```yaml
 env:
-  THEME_NAME: anuppuccin
+  THEME_NAME: obsidian-nord
 ```
 
 ```yaml
@@ -28,7 +28,7 @@ env:
 ```bash
 curl -s -S -o action.sh https://raw.githubusercontent.com/saberzero1/quartz-themes/master/action.sh
 
-./action.sh anuppuccin
+./action.sh obsidian-nord
 ```
 
 ### Manual install
