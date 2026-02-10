@@ -1,5 +1,7 @@
 @use "./base.scss";
 @use "./themes";
+/* Custom global styles */
+@use "code/pretty-code";
 
 // put your custom CSS here!
 /* Ocultar el botón de Dark Mode */
@@ -7,5 +9,4 @@
   display: none !important;
 }
 
-/* Ajustes extra para el look Nord */
 
