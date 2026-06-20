@@ -28,7 +28,7 @@ figure[data-rehype-pretty-code-figure] code {
    3. TIPOGRAFÍA Y LECTURA
    ───────────────────────────────────────────── */
 figure[data-rehype-pretty-code-figure] code {
-  font-family: 'Fira Code', 'JetBrains Mono', monospace;
+  font-family: "Fira Code", "JetBrains Mono", monospace;
   font-size: 0.95rem;
   line-height: 1.6;
 }
@@ -43,9 +43,9 @@ figure[data-rehype-pretty-code-figure] span {
 /* Comentarios visibles pero sobrios */
 figure[data-rehype-pretty-code-figure] .sk-comment,
 figure[data-rehype-pretty-code-figure] span[style*="font-style:italic"] {
-//  color: #7fdbca !important;
+  //  color: #7fdbca !important;
   opacity: 1 !important;
-//  font-style: italic !important;
+  //  font-style: italic !important;
 }
 
 /* ─────────────────────────────────────────────
@@ -83,4 +83,3 @@ figure[data-rehype-pretty-code-figure]:hover > pre {
   background-color: #1c1f2e !important; /* apenas más claro */
   box-shadow: 0 14px 36px rgba(0, 0, 0, 0.65);
 }
-

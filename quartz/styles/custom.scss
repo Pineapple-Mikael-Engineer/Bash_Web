@@ -20,24 +20,24 @@
 
 // --- Variables de paleta Terminal Atom ---
 :root {
-  --ta-bg:          #11151b;
-  --ta-code:        #0c0f14;
-  --ta-panel:       #181d25;
-  --ta-panel-2:     #20262f;
-  --ta-border:      #313a48;
+  --ta-bg: #11151b;
+  --ta-code: #0c0f14;
+  --ta-panel: #181d25;
+  --ta-panel-2: #20262f;
+  --ta-border: #313a48;
   --ta-border-soft: #232b35;
-  --ta-shadow:      0 2px 14px rgba(0, 0, 0, 0.45);
-  --ta-text:        #d9dde4;
-  --ta-bright:      #eceff4;
-  --ta-muted:       #8b94a4;
-  --ta-faint:       #5c6370;
-  --ta-red:         #e06c75;
-  --ta-orange:      #d19a66;
-  --ta-yellow:      #e5c07b;
-  --ta-green:       #98c379;
-  --ta-aqua:        #56b6c2;
-  --ta-blue:        #61afef;
-  --ta-purple:      #c678dd;
+  --ta-shadow: 0 2px 14px rgba(0, 0, 0, 0.45);
+  --ta-text: #d9dde4;
+  --ta-bright: #eceff4;
+  --ta-muted: #8b94a4;
+  --ta-faint: #5c6370;
+  --ta-red: #e06c75;
+  --ta-orange: #d19a66;
+  --ta-yellow: #e5c07b;
+  --ta-green: #98c379;
+  --ta-aqua: #56b6c2;
+  --ta-blue: #61afef;
+  --ta-purple: #c678dd;
 }
 
 // =====================================================================
@@ -148,11 +148,18 @@ body article li {
 }
 
 // Negrita y cursiva
-body article strong { color: var(--ta-yellow) !important; }
-body article em     { color: var(--ta-bright) !important; font-style: italic; }
+body article strong {
+  color: var(--ta-yellow) !important;
+}
+body article em {
+  color: var(--ta-bright) !important;
+  font-style: italic;
+}
 
 // Selección
-::selection { background: rgba(97, 175, 239, 0.25); }
+::selection {
+  background: rgba(97, 175, 239, 0.25);
+}
 
 // Headings — restaurar headerFont y aplicar colores Atom One
 // Nota: body h1/h2... del _index.scss tiene misma especificidad 0,0,2
@@ -176,7 +183,7 @@ article h1 {
 article h2 {
   color: var(--ta-orange);
   font-size: 1.5em;
-  border-bottom: 1px solid rgba(209, 154, 102, 0.40);
+  border-bottom: 1px solid rgba(209, 154, 102, 0.4);
   padding-bottom: 0.18em;
 }
 article h3 {
@@ -193,7 +200,7 @@ article h4 {
 }
 article h5 {
   color: var(--ta-aqua);
-  font-size: 1.0em;
+  font-size: 1em;
   padding-left: 0.6em;
   border-left: 3px solid currentColor;
 }
@@ -267,11 +274,22 @@ article :is(th, td) {
   border-bottom: 1px solid var(--ta-border-soft);
   color: var(--ta-text) !important;
 }
-article :is(th, td):last-child     { border-right: none; }
-article tbody tr:last-child td      { border-bottom: none; }
-article tbody tr:nth-child(even)    { background: rgba(255, 255, 255, 0.028); }
-article tbody tr:hover              { background: rgba(97, 175, 239, 0.10) !important; }
-article tbody td:first-child        { color: var(--ta-bright) !important; font-weight: 600; }
+article :is(th, td):last-child {
+  border-right: none;
+}
+article tbody tr:last-child td {
+  border-bottom: none;
+}
+article tbody tr:nth-child(even) {
+  background: rgba(255, 255, 255, 0.028);
+}
+article tbody tr:hover {
+  background: rgba(97, 175, 239, 0.1) !important;
+}
+article tbody td:first-child {
+  color: var(--ta-bright) !important;
+  font-weight: 600;
+}
 
 // =====================================================================
 // 7 · BLOCKQUOTES y separadores
@@ -289,7 +307,13 @@ blockquote {
 }
 
 hr {
-  background: linear-gradient(90deg, transparent, var(--ta-border) 15%, var(--ta-border) 85%, transparent) !important;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    var(--ta-border) 15%,
+    var(--ta-border) 85%,
+    transparent
+  ) !important;
   border: none !important;
   height: 1px;
 }
@@ -305,7 +329,7 @@ body a.internal {
   background-color: transparent !important;
   border-radius: 0;
   padding: 0;
-  border-bottom: 1px dotted rgba(97, 175, 239, 0.40);
+  border-bottom: 1px dotted rgba(97, 175, 239, 0.4);
   text-decoration: none !important;
 }
 body a.internal:hover {
@@ -325,8 +349,12 @@ body a.external:hover {
 // 9 · LISTAS, MARCAS Y ETIQUETAS
 // =====================================================================
 
-article ul > li::marker { color: var(--ta-aqua); }
-article ol > li::marker { color: var(--ta-orange); }
+article ul > li::marker {
+  color: var(--ta-aqua);
+}
+article ol > li::marker {
+  color: var(--ta-orange);
+}
 
 mark {
   background: rgba(229, 192, 123, 0.22) !important;
@@ -367,91 +395,97 @@ mark {
   padding: 0.4em 0.95em 0.6em !important;
 }
 
-.callout-content > :first-child { margin-top: 0.4em; }
-.callout-content > :last-child  { margin-bottom: 0.4em; }
+.callout-content > :first-child {
+  margin-top: 0.4em;
+}
+.callout-content > :last-child {
+  margin-bottom: 0.4em;
+}
 
 // Código dentro de callout
 .callout :not(pre) > code,
-.callout pre { background: var(--ta-code) !important; }
+.callout pre {
+  background: var(--ta-code) !important;
+}
 
 // --- Tipos formales / matemáticos (definicion, teorema, etc.) ---
 .callout[data-callout="definicion"] {
   --color: #61afef;
-  --border: rgba(97, 175, 239, 0.30);
+  --border: rgba(97, 175, 239, 0.3);
   --bg: rgba(97, 175, 239, 0.08);
 }
 .callout[data-callout="teorema"] {
   --color: #c678dd;
-  --border: rgba(198, 120, 221, 0.30);
+  --border: rgba(198, 120, 221, 0.3);
   --bg: rgba(198, 120, 221, 0.08);
 }
 .callout[data-callout="demostracion"] {
   --color: #56b6c2;
-  --border: rgba(86, 182, 194, 0.30);
+  --border: rgba(86, 182, 194, 0.3);
   --bg: rgba(86, 182, 194, 0.08);
 }
 .callout[data-callout="lema"] {
   --color: #b294de;
-  --border: rgba(178, 148, 222, 0.30);
+  --border: rgba(178, 148, 222, 0.3);
   --bg: rgba(178, 148, 222, 0.08);
 }
 .callout[data-callout="proposicion"] {
   --color: #61afef;
-  --border: rgba(97, 175, 239, 0.30);
+  --border: rgba(97, 175, 239, 0.3);
   --bg: rgba(97, 175, 239, 0.08);
 }
 .callout[data-callout="corolario"] {
   --color: #56b6c2;
-  --border: rgba(86, 182, 194, 0.30);
+  --border: rgba(86, 182, 194, 0.3);
   --bg: rgba(86, 182, 194, 0.08);
 }
 .callout[data-callout="axioma"] {
   --color: #8b94a4;
-  --border: rgba(124, 134, 150, 0.30);
+  --border: rgba(124, 134, 150, 0.3);
   --bg: rgba(124, 134, 150, 0.08);
 }
 
 // --- Tipos ilustrativos ---
 .callout[data-callout="ejemplo"] {
   --color: #98c379;
-  --border: rgba(152, 195, 121, 0.30);
+  --border: rgba(152, 195, 121, 0.3);
   --bg: rgba(152, 195, 121, 0.08);
 }
 .callout[data-callout="teoria"] {
   --color: #56b6c2;
-  --border: rgba(86, 182, 194, 0.30);
+  --border: rgba(86, 182, 194, 0.3);
   --bg: rgba(86, 182, 194, 0.08);
 }
 .callout[data-callout="info"] {
   --color: #61afef;
-  --border: rgba(97, 175, 239, 0.30);
+  --border: rgba(97, 175, 239, 0.3);
   --bg: rgba(97, 175, 239, 0.08);
 }
 .callout[data-callout="algoritmo"] {
   --color: #98c379;
-  --border: rgba(152, 195, 121, 0.30);
+  --border: rgba(152, 195, 121, 0.3);
   --bg: rgba(152, 195, 121, 0.08);
 }
 
 // --- Avisos y reglas ---
 .callout[data-callout="warning"] {
   --color: #e5c07b;
-  --border: rgba(229, 192, 123, 0.30);
+  --border: rgba(229, 192, 123, 0.3);
   --bg: rgba(229, 192, 123, 0.08);
 }
 .callout[data-callout="regla"] {
   --color: #d19a66;
-  --border: rgba(209, 154, 102, 0.30);
+  --border: rgba(209, 154, 102, 0.3);
   --bg: rgba(209, 154, 102, 0.08);
 }
 .callout[data-callout="solucion"] {
   --color: #98c379;
-  --border: rgba(152, 195, 121, 0.30);
+  --border: rgba(152, 195, 121, 0.3);
   --bg: rgba(152, 195, 121, 0.08);
 }
 .callout[data-callout="referencia"] {
   --color: #8b94a4;
-  --border: rgba(130, 150, 170, 0.30);
+  --border: rgba(130, 150, 170, 0.3);
   --bg: rgba(130, 150, 170, 0.08);
 }
 
