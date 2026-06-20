@@ -16,7 +16,7 @@ const config: QuartzConfig = {
       provider: "plausible",
     },
     locale: "en-US",
-    baseUrl: "pineapple-mikael-engineer.github.io/Bash_Web/",
+    baseUrl: "pineapple-mikael-engineer.github.io/Bash_Web",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "modified",
     theme: {
