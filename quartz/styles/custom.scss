@@ -94,9 +94,16 @@ body[data-slug] .page > #quartz-body,
     padding: 0 !important;
   }
 
-  // 1fr en center: ocupa todo el espacio restante entre sidebars
+  // CLAVE: el themes/_index.scss limita #quartz-body a min(100%,1500px) y lo
+  // centra (place-items:center) → deja huecos a los lados. Forzamos 100% para
+  // que el grid ocupe TODO el viewport y los sidebars toquen los bordes.
   .page > #quartz-body {
-    grid-template-columns: 220px 1fr 220px !important;
+    width: 100% !important;
+    min-width: 100% !important;
+    max-width: 100% !important;
+    // Izquierda más ancha (árbol de directorios), derecha algo menor.
+    // 1fr en center: ocupa todo el espacio restante entre sidebars.
+    grid-template-columns: 330px 1fr 270px !important;
     padding: 0 !important;
   }
 }
@@ -106,7 +113,7 @@ body[data-slug] .page > #quartz-body,
 .center > article,
 .center > .page-footer,
 .center > hr {
-  max-width: 780px;
+  max-width: 820px;
   margin-left: auto !important;
   margin-right: auto !important;
   width: 100%;
@@ -124,7 +131,7 @@ body[data-slug] .page > #quartz-body,
 // =====================================================================
 
 :root {
-  font-size: 15px !important;
+  font-size: 16.5px !important;
 }
 
 // =====================================================================
@@ -501,13 +508,13 @@ mark {
 }
 
 #quartz-body .sidebar.left {
-  padding-left: 0.75rem !important;
-  padding-right: 0.5rem !important;
+  padding-left: 1rem !important;
+  padding-right: 0.6rem !important;
 }
 
 #quartz-body .sidebar.right {
-  padding-left: 0.5rem !important;
-  padding-right: 0.75rem !important;
+  padding-left: 0.6rem !important;
+  padding-right: 1rem !important;
 }
 
 // Explorer y TOC: items llenan el ancho completo del sidebar
@@ -529,4 +536,23 @@ mark {
   display: block;
   width: 100%;
   box-sizing: border-box;
+}
+
+// Tamaño de fuente más legible en el árbol de directorios (sidebar izq. ancho)
+#quartz-body .sidebar.left .explorer-content a,
+#quartz-body .sidebar.left .explorer-content button,
+#quartz-body .sidebar.left .folder-title {
+  font-size: 0.95rem !important;
+  line-height: 1.5;
+}
+
+// Título de página (cabecera del sidebar izquierdo) algo mayor
+#quartz-body .sidebar.left .page-title {
+  font-size: 1.5rem !important;
+}
+
+// Tabla de contenidos (sidebar derecho) un poco más grande
+#quartz-body .sidebar.right .toc-content a {
+  font-size: 0.9rem !important;
+  line-height: 1.45;
 }
